@@ -11,5 +11,11 @@ public sealed class Kukiriniarz : Entity.Character
         Strength = 5;
         Intelligence = 3;
         Agility = 25;
+        Aura = 1;
+        SigmaLvl = 7;
+
+    }
+    public int AuraBoost() { 
+        return Aura += 5;
     }
 }

@@ -11,5 +11,13 @@ public sealed class Warrior : Entity.Character
         Strength = 14;
         Intelligence = 6;
         Agility = 8;
+        Aura = 2;
+        SigmaLvl = 4;
+
+    }
+    public int PowerStrike()
+    {
+        Strength += 10;
+        return Strength;
     }
 }
