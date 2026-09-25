@@ -42,4 +42,12 @@ public class RogueTest
         Assert.AreEqual(22, rogue.StealthAttack());
 
     }
+
+    [TestMethod]
+    public void TestRogueAttack()
+    {
+        var rogue = new Rogue("Rogue");
+
+        Assert.AreEqual(27, rogue.Attack());
+    }
 }

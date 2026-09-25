@@ -14,9 +14,15 @@ public sealed class Rogue : Entity.Character
         Aura = 4;
         SigmaLvl = 6;
     }
+
     public int StealthAttack()
     {
         Agility += 7;
         return Agility;
+    }
+
+    public int Attack()
+    {
+        return Strength * 3;
     }
 }

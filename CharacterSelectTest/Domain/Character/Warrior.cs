@@ -20,4 +20,9 @@ public sealed class Warrior : Entity.Character
         Strength += 10;
         return Strength;
     }
+
+    public int Attack()
+    {
+        return Strength * 3;
+    }
 }

@@ -42,4 +42,11 @@ public class WarriorTest
         Assert.AreEqual(24, warrior.PowerStrike());
 
     }
+    [TestMethod]
+    public void TestWarriorAttack()
+    {
+        var warrior = new Warrior("Warrior");
+
+        Assert.AreEqual(42, warrior.Attack());
+    }
 }

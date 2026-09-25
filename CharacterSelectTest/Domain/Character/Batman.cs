@@ -22,5 +22,9 @@ public sealed class Batman : Entity.Character
         SigmaLvl += 30;
         return SigmaLvl;
     }
-    
+    public int Attack()
+    {
+        return Strength * 3;
+    }
+
 }

@@ -18,4 +18,9 @@ public sealed class Kukiriniarz : Entity.Character
     public int AuraBoost() { 
         return Aura += 5;
     }
+    public int Attack()
+    {
+        return Strength * 3;
+    }
+
 }

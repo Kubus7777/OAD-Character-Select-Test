@@ -42,4 +42,11 @@ public class MageTest
         Assert.AreEqual(21, mage.CzaryMary());
 
     }
+    [TestMethod]
+    public void TestMageAttack()
+    {
+        var mage = new Mage("Mage");
+
+        Assert.AreEqual(12, mage.Attack());
+    }
 }

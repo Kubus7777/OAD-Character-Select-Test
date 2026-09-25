@@ -42,4 +42,12 @@ public class NinjaTest
         Assert.AreEqual(30, ninja.spinjitsu());
 
     }
+
+    [TestMethod]
+    public void TestNinjaAttack()
+    {
+        var ninja = new Ninja("Ninja");
+
+        Assert.AreEqual(30, ninja.Attack());
+    }
 }

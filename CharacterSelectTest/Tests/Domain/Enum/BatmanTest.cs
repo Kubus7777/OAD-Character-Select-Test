@@ -42,4 +42,11 @@ public class BatmanTest
         Assert.AreEqual(33, Batman.Mogging());
 
     }
+    [TestMethod]
+    public void TestBatmanAttack()
+    {
+        var Batman = new Batman("Batman");
+
+        Assert.AreEqual(36, Batman.Attack());
+    }
 }

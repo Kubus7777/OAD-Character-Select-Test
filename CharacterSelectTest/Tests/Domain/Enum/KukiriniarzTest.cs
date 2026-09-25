@@ -42,4 +42,11 @@ public class KukiriniarzTest
         Assert.AreEqual(6, Kukiriniarz.AuraBoost());
 
     }
+    [TestMethod]
+    public void TestKukiriniarzAttack()
+    {
+        var kukiriniarz = new Kukiriniarz("Kukiriniarz");
+
+        Assert.AreEqual(15, kukiriniarz.Attack());
+    }
 }

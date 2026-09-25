@@ -19,4 +19,8 @@ public sealed class Mage : Entity.Character
         Intelligence += 5;
         return Intelligence;
     }
+    public int Attack()
+    {
+        return Strength * 3;
+    }
 }

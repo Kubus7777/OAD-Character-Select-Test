@@ -22,5 +22,10 @@ public sealed class Ninja : Entity.Character
             return Agility;
             
         }
-    
+
+    public int Attack()
+    {
+        return Strength * 3;
+    }
+
 }
