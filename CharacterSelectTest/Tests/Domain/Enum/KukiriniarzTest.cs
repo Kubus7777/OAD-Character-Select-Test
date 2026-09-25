@@ -31,7 +31,7 @@ public class KukiriniarzTest
         var Kukiriniarz = new Kukiriniarz("Kukiriniarz");
 
         Assert.AreEqual(1, Kukiriniarz.Aura);
-        Assert.AreEqual(6, Kukiriniarz.SigmaLvl);
+        Assert.AreEqual(7, Kukiriniarz.SigmaLvl);
 
     }
 

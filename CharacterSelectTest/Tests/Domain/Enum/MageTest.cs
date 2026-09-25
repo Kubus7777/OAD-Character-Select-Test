@@ -19,7 +19,7 @@ public class MageTest
     {
         var mage = new Mage("Mage");
 
-        Assert.AreEqual(60, mage.Health);
+        Assert.AreEqual(80, mage.Health);
         Assert.AreEqual(10, mage.Strength);
         Assert.AreEqual(16, mage.Intelligence);
         Assert.AreEqual(20, mage.Agility);

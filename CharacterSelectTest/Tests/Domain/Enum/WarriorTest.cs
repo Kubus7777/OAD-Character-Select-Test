@@ -19,7 +19,7 @@ public class WarriorTest
     {
         var warrior = new Warrior("Warrior");
 
-        Assert.AreEqual(100, warrior.Health);
+        Assert.AreEqual(120, warrior.Health);
         Assert.AreEqual(10, warrior.Strength);
         Assert.AreEqual(16, warrior.Intelligence);
         Assert.AreEqual(20, warrior.Agility);

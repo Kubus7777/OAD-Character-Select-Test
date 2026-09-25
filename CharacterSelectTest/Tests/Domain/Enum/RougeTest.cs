@@ -19,7 +19,7 @@ public class RogueTest
     {
         var rogue = new Rogue("Rogue");
 
-        Assert.AreEqual(80, rogue.Health);
+        Assert.AreEqual(95, rogue.Health);
         Assert.AreEqual(10, rogue.Strength);
         Assert.AreEqual(16, rogue.Intelligence);
         Assert.AreEqual(20, rogue.Agility);
