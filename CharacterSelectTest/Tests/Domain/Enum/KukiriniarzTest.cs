@@ -32,7 +32,7 @@ public class KukiriniarzTest
 
         Assert.AreEqual(1, Kukiriniarz.Aura);
         Assert.AreEqual(7, Kukiriniarz.SigmaLvl);
-
+          
     }
 
     [TestMethod]
